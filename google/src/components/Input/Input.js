@@ -7,7 +7,7 @@ const styles = {
           
     }
 }
-function Input ({query, click, handleInputChange, handleFormSubmit}){
+function Input ({query, handleInputChange, handleFormSubmit}){
     return (
         <div style = {styles.input} className="input-group mb-3">
   <input 
